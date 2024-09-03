@@ -1,0 +1,74 @@
+{
+  "author": {
+    "email": "ict20@hotmail.com",
+    "name": "นายสรายุทธ สิริภูษิต"
+  },
+  "description": "ปริมาณการผลิตข้าว พืชไร่ พืชผัก ไม้ดอก ไม้ประดับ สมุนไพรและเครื่องเทศ ทุกชนิดที่ผลิตในแต่ละตำบลทั่วประเทศ ปี 2562 \r\n",
+  "keywords": [
+    "ภาวะการผลิตพืช ปริมาณสินค้าเกษตร"
+  ],
+  "license": {
+    "title": "DGA Open Government License",
+    "type": "ogl"
+  },
+  "name": "production-62",
+  "resources": [
+    {
+      "description": "พืชอายุสั้นที่มีการผลิตในปี 2562 รายตำบล",
+      "format": "CSV",
+      "name": "kh-muulkaarphlitphuuech-pii-2562",
+      "path": "kh-muulkaarphlitphuuech-pii-2562.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "พื้นที่",
+            "type": "string"
+          },
+          {
+            "name": "เนื้อที่ปลูก",
+            "type": "string"
+          },
+          {
+            "name": "ผลผลิต",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://opendata.data.go.th/dataset/58cc829b-ebec-4950-81e0-a4b5d525519f/resource/3d6459e0-6512-4dcf-b3d4-b2bd7abd1a59/download/01_63.csv",
+          "title": "ข้อมูลการผลิตพืช ปี 2562"
+        }
+      ],
+      "title": "ข้อมูลการผลิตพืช ปี 2562"
+    },
+    {
+      "format": "XLSX",
+      "name": "a1efd422-105b-4a70-83fc-a6bc0f1f95e8",
+      "path": "a1efd422-105b-4a70-83fc-a6bc0f1f95e8.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "พื้นที่",
+            "type": "string"
+          },
+          {
+            "name": "เนื้อที่ปลูก",
+            "type": "string"
+          },
+          {
+            "name": "ผลผลิต",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://opendata.data.go.th/dataset/58cc829b-ebec-4950-81e0-a4b5d525519f/resource/a1efd422-105b-4a70-83fc-a6bc0f1f95e8/download/01_63.xlsx",
+          "title": ""
+        }
+      ]
+    }
+  ],
+  "title": "ข้อมูลการผลิตข้าว พืชไร่ พืชผัก ไม้ดอก ไม้ประดับ สมุนไพรและเครื่องเทศ รายตำบลทั่วประเทศ ในปี 2562"
+}
