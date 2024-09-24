@@ -1,0 +1,15 @@
+#แก้ไข้ข้อมูลที่อยู่ในตาราง TAMBON เพื่อให้ตรงกับอีก 2 ตาราง
+UPDATE TAMBON
+SET ProvinceThai='อยุธยา'
+WHERE ProvinceThai='พระนครศรีอยุธยา';
+
+#จอยเพื่อดูว่าชื่อจังหวัดของข้อมูลตรงกันหรือไม่
+SELECT TAMBON.ProvinceID ,จังหวัด,ProvinceThai
+FROM TAMBON,Sheet1
+WHERE TAMBON.ProvinceID = Sheet1.ProvinceID;
+
+SELECT TAMBON.ProvinceID, [จังหวัด], ProvinceThai
+FROM TAMBON, นาปรัง
+WHERE TAMBON.ProvinceID = นาปรัง.ProvinceID;
+
+#พอได้ข้อมูลที่ต้องการแล้วก็นำไปทำ visualization ต่อ
